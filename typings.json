@@ -1,5 +1,5 @@
 {
-    "name": "opensaturdayfrontend",
+    "name": "opensaturday",
     "version": false,
     "globalDependencies": {
         "angular-animate": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-animate.d.ts#bb051830df88f5a55dcf06b7fe85bf6b62cc97f2",
