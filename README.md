@@ -42,3 +42,8 @@ gulp build
 ```sh
 gulp serve
 ```
+
+#### DEPLOY
+```sh
+npm install now && cd dist && now
+```
