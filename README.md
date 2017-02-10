@@ -4,7 +4,7 @@
 
 * [Angular 1.6.1](https://github.com/angular/code.angularjs.org/tree/master/1.6.1) is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC...
 * [TypeScript](https://github.com/Microsoft/TypeScript) TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-* [GulpJs](http://gulpjs.com/) s a task/build runner for development. It allows you to do a lot of stuff within your development workflow. You can compile sass files, uglify and compress js files and much more. The kicker for gulp is that its a streaming build system which doesn't write temp files.
+* [GulpJs](http://gulpjs.com/) is a task/build runner for development. It allows you to do a lot of stuff within your development workflow. You can compile sass files, uglify and compress js files and much more. The kicker for gulp is that its a streaming build system which doesn't write temp files.
 * [SPA](https://johnpapa.net/spa/) Single Page Applications (SPA) are built on expanding reach via the browser, reducing round tripping, and enhancing User Experience (UX)
  
 **Tienes que instalar las dependencias:**
