@@ -1,6 +1,4 @@
-import { MainController } from './main.controller'; 
+import { MainController } from './main.controller';
 
-describe('controllers', () => {
-  let mainController: MainController;
- 
+describe('controllers', () => { 
 });
