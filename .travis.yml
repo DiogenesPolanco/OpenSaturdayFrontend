@@ -13,13 +13,11 @@ install:
   - npm install -g typings
   - npm install -g bower
   - npm install -g gulp
-
-before_script:
-  - export CHROME_BIN=chromium-browser
-  - export DISPLAY=:99.0 
+  
+before_script: 
   - npm install
   - typings install
-  - bower install 
-
-  script:
+  - bower install
+  
+script:
   - gulp build
