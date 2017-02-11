@@ -21,6 +21,6 @@ export class NavbarController {
   public creationDate: number;
 
   constructor(moment: moment.MomentStatic) {
-    this.relativeDate = moment(this.creationDate).fromNow();
+    this.relativeDate = moment(1486748168342).fromNow();
   }
 }
