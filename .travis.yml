@@ -1,0 +1,25 @@
+language: node_js
+sudo: false
+node_js:
+  - '0.10'
+  - '0.12'
+  - '4'
+
+cache:
+  directories:
+    - node_modules 
+
+matrix:
+  fast_finish: true
+ 
+before_script:
+  - export CHROME_BIN=chromium-browser
+  - export DISPLAY=:99.0  
+  - npm install -g bower
+  - npm install -g gulp
+
+script:
+  - npm test
+
+after_success: 
+  - gulp build
