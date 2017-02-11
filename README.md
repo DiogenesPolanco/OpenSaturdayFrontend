@@ -1,6 +1,5 @@
 # OpenSaturday-Frontend
-[![Build Status](https://travis-ci.org/DiogenesPolanco/OpenSaturdayFrontend.svg?branch=master)](https://travis-ci.org/DiogenesPolanco/OpenSaturdayFrontend)
- 
+
 **Tecnologias y metodologias utilizadas:**
 
 * [Angular 1.6.1](https://github.com/angular/code.angularjs.org/tree/master/1.6.1) is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC...
