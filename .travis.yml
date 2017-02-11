@@ -3,4 +3,24 @@ node_js:
   - '0.10'
   - '0.12'
   - '4' 
-   
+
+matrix:
+  fast_finish: true
+
+install:
+  - npm install -g npm@latest
+  - npm install -g typescript
+  - npm install -g typings
+  - npm install -g bower
+  - npm install -g gulp
+
+before_script:
+  - export CHROME_BIN=chromium-browser
+  - export DISPLAY=:99.0 
+  - npm install
+  - typings install
+  - bower install 
+
+  script:
+  - gulp build
+ 
