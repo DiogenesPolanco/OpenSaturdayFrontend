@@ -1,17 +1,18 @@
+sudo: false
 language: node_js
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
 
 script: 
   - npm install $TYPESCRIPT --force 
 
 env:
-  - TYPESCRIPT=typescript@1.6
-  - TYPESCRIPT=typescript@1.7
-  - TYPESCRIPT=typescript@1.8
   - TYPESCRIPT=typescript@2.0
+  - TYPESCRIPT=typescript@latest
   - TYPESCRIPT=typescript@next
 
 node_js:
-  - '4'
-  - stable
-
-after_script: "npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
+  - "stable"
