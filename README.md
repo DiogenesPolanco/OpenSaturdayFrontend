@@ -1,4 +1,5 @@
 # OpenSaturday-Frontend
+[![Build Status](https://travis-ci.org/DiogenesPolanco/OpenSaturdayFrontend.svg?branch=master)](https://travis-ci.org/DiogenesPolanco/OpenSaturdayFrontend)
  
 **Tecnologias y metodologias utilizadas:**
 
